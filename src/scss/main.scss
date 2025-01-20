@@ -17,6 +17,7 @@ body {
   background: #c4d2f5;
   display: flex;
   justify-content: center;
+  padding-top: 350px;
 }
 
 .player {
@@ -82,4 +83,22 @@ audio {
 
 .player-progress {
   display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.player-progress-bar {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  border-radius: 3px;
+  background: var(--light-gray, #f6f6ef);
+  width: 283px;
+  height: 6px;
+}
+
+.player-progress-inner {
+  background: var(--purple, #e783bc);
+  height: 6px;
 }
